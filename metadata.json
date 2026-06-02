@@ -1,0 +1,6 @@
+{
+  "name": "VS AMBIVALENZ Intro",
+  "description": "An introduction website for the Japanese music audition project VS AMBIVALENZ, featuring all 14 candidates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

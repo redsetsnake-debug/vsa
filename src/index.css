@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-brand-yellow: #FFD93D;
+  --color-brand-orange: #FF8B13;
+  --color-brand-red: #FF6B6B;
+  --color-brand-bg: #FFFDF5;
+}
+
+body {
+  @apply bg-brand-bg text-black font-sans selection:bg-brand-yellow selection:text-black min-h-screen border-8 border-brand-yellow;
+}
+
+.geometric-shadow {
+  @apply shadow-[6px_6px_0px_#000];
+}
+
+.dotted-bg {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9IiNGRkQ5M0QiLz48L3N2Zz4=");
+}
